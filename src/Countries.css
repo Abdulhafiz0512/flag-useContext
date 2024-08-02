@@ -1,0 +1,28 @@
+
+.country-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.country {
+    display: flex;
+    align-items: center;
+}
+
+.country img {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.country-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.country-info p {
+    margin: 0;
+    font-size: 14px;
+}
