@@ -9,7 +9,7 @@ export const CountryProvider = ({ children }) => {
     useEffect(() => {
         const fetchCountries = async () => {
             try {
-                const response = await axios.get('https://restgigit countries.com/v3.1/all');
+                const response = await axios.get('https://restcountries.com/v3.1/all');
                 setCountries(response.data);
             } catch (error) {
                 console.error('Error fetching countries:', error);
